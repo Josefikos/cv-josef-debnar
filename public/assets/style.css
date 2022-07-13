@@ -1,0 +1,15 @@
+@import "paper-css/paper.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.page {
+    aspect-ratio: 1 / 1.41421356237;
+    width: 210mm;
+    height: 297mm;
+}
+
+@page {
+    size: A4;
+}
