@@ -1,12 +1,6 @@
-const { resolve } = require('path');
-const { defineConfig } = require('vite');
-
-module.exports = defineConfig({
+module.exports = {
+    root: 'src',
     build: {
-        rollupOptions: {
-            input: {
-                main: resolve(__dirname, 'public/index.html'),
-            }
-        }
-    }
-});
+        outDir: '../dist',
+    },
+}
